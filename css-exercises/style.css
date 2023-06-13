@@ -1,8 +1,5 @@
-
-div {	
-	background-color: red;
-	fontsize: 32px;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-}
+ p {	
+ 	background-color: #ff3399;
+ 	font-family: "Verdana", "DejaVu Sans", sans-serif;
+ 	font-size: 32px;
+ }
