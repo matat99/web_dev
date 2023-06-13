@@ -18,11 +18,11 @@ body {
 
 .content {
   background: #e3f4ff;
-  padding: 8px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 8px;
-  margin-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 16px;
 }
 
 .button-container {
@@ -36,4 +36,5 @@ button {
   border: 1px solid #eee;
   padding: 16px;
   align-items: center;
+  disply: block;
 }
