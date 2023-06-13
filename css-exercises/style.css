@@ -1,6 +1,7 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  align-box: center;
 }
 
 .card {
@@ -25,5 +26,5 @@ button {
   background: white;
   border: 1px solid #eee;
   padding: 16px;
-  align-self: center;
+  box-align: center;
 }
