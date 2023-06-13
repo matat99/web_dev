@@ -7,11 +7,13 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  padding: 8px;
+  margin: 8px;
+  box-align: center;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
 }
 
 .content {
@@ -20,6 +22,7 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  box-align: center;
 }
 
 button {
