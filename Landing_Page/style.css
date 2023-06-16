@@ -1,0 +1,41 @@
+.top_wrapper {
+	background: #1F2937;
+	height: 100vh;
+	width: 100%;
+}
+
+#cosmos img {
+	height: 50px;
+	width: 50px;
+}
+
+.logo img {
+	height: auto;
+	width: 100px;
+	padding: 16px;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.links {
+	display: flex;
+	gap: 32px;
+	margin: 32px;
+	list-style-type: none;
+	font-size: 32px;
+}
+
+.links a {
+	text-decoration: none;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+}
+p {
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
