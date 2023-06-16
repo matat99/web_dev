@@ -1,7 +1,12 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
 .top_wrapper {
 	background: #1F2937;
-	height: 100vh;
-	width: 100%;
+	padding-left: 120px;
 }
 
 #cosmos img {
@@ -9,11 +14,32 @@
 	width: 50px;
 }
 
+#cosmos img {
+	height: 320px;
+	width: auto;
+	display: flex;
+	padding-right: 80px;
+	padding-bottom: 80px;
+
+}
+
 .logo img {
 	height: auto;
-	width: 100px;
+	width: 80px;
 	padding: 16px;
 }
+
+h1 {
+	color: white;
+	font-size: 42px;
+}
+.idk {
+	flex-direction: column;
+	width: 400px;
+	margin-left: 50px;
+	gap:32px;
+}
+
 
 .logo {
 	display: flex;
@@ -25,17 +51,64 @@
 	gap: 32px;
 	margin: 32px;
 	list-style-type: none;
-	font-size: 32px;
+	font-size: 24px;
+	padding-right: 50px;
 }
 
 .links a {
 	text-decoration: none;
-	color: gray;
-	font-family: 'Roboto', sans-serif;
+	color: white;
 }
+
 p {
 	color: white;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
+
+.parent {
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	margin-top: 42px;
+}
+
+
+.signup {
+	padding: 12px 24px;
+	background-color: #3882F6;
+	border: 0px;
+	border-radius: 8px;
+	color: white;
+	font-weight: bolder;
+}
+
+
+/* This is for second Section */
+
+.second_wrapper {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+
+.imagess {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.imagess img {
+	border: 10px red;
+	width: auto;
+	height: 190px;
+	border-radius: 8px;
+}
+
+.imagess p {
+	color: black;
+	font-size: 16px;
+}
+
